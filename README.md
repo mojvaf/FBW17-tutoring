@@ -9,17 +9,11 @@ It takes place on:
 ## Examples
 In folders starting with **examples-** you will find samples of code from specific topics. This is a good place to learn the syntax and see some simple stuff in action.
 
----
-
 ## Exercises
 Tasks done during tutoring will be stored in folders **JS-XX** or **HTML-CSS-XX**.
 
----
-
 ## Solutions
 Almost always I will attach solutions to the tasks. If you have some problems than have a look how I did it, maybe it will help. Just don't copy the whole solution...
-
----
 
 **In case of questions write me on slack**
 
