@@ -5,7 +5,7 @@ function myFunction(a) {
 let myFunction1 = function(a) {
     console.log(a);
 };
-let myFunction2 = a => {
+let myFunction2 = (a) => {
     console.log(a);
 };
 
@@ -22,9 +22,11 @@ console.log(sumNumbers(3, 6));
 // CALLBACKS
 let add = (a, b) => a + b;
 let multiply = (a, b) => a * b;
+
 const calculator = (a, b, callback) => {
     return callback(a, b);
 };
+
 console.log(calculator(2, 4, add));
 console.log(calculator(2, 4, multiply));
 
