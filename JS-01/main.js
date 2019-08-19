@@ -57,7 +57,7 @@ console.log(mostExpensive[mostExpensive.length-1]);
 
 //DISPLAY PRODUCTS THAT PRICE IS HIGHER THAN 1 AND SMALLER THAN 2
 let filteredArray = shopProducts.filter(function(product){
-    return product.price >= 1
+    return product.price >= 1 && product.price <=2
 });
 console.log(filteredArray);
 
