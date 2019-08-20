@@ -38,8 +38,8 @@ console.log(countWithFilter(numbers,5));
 
 // * REDUCE
 let countWithReduce = function(array,number){
-    return array.reduce(function(p,c){
-        return c === number ? (p+1) : p;
+    return array.reduce(function(prev,curr){
+        return curr === number ? (prev+1) : prev;
     },0);
 }
 console.log(countWithReduce(numbers,8));
