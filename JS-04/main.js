@@ -27,7 +27,6 @@ let result = countNumber(numbers,3);
 console.log(result);
 
 // * FILTER
-
 function countWithFilter(arrayOfNumbers,number){
     
     console.log("before filtering",arrayOfNumbers);
@@ -47,7 +46,6 @@ function countWithFilter(arrayOfNumbers,number){
 console.log(countWithFilter(numbers,10));
 
 // * REDUCE
-
 
 
 // WRITE A FUNCTION THAT SORTS OBJECTS IN ARRAY BY AGE / ASCENDING
