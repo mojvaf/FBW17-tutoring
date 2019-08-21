@@ -35,3 +35,6 @@ console.log([2,10,5,3,8,6].sort(function(a,b){
 let array = ["Something","Something else"];
 array = array.concat(["Karol"]);
 console.log(array);
+
+
+let pr
