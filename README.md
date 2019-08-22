@@ -21,5 +21,7 @@ Almost always I will attach solutions to the tasks. If you have some problems th
 - Explanation of .filter() method [[link to presentation](https://docs.google.com/presentation/d/1t89PQF5Fv4hvPIQPVXlkp8-c1jGZAMo8TBYyafyoK2w/edit?usp=sharing)]
 - Explanation of .reduce() method [[link to presentation](https://docs.google.com/presentation/d/1IZhpjFQwOqoq1lsPJnPm_UHiSbIQk_AmnpTbEFAC82Q/edit?usp=sharing)]
 
+- CSS Positioning [[link to presentation](https://docs.google.com/presentation/d/1-Vw8SEsixuC6o2aOoqeXR4BinEpdeIblYQ2OjTCA5JU/edit?usp=sharing)]
+
 *In case of questions or task requests write me on slack or drop an email karol.polakowski@digitalcareerinstitute.org*
 
