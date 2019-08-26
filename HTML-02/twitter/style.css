@@ -1,3 +1,91 @@
-body{
-    background: red;
+*{
+    box-sizing: border-box;
+    margin:0; padding:0;
 }
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+section {
+    flex-basis:50%;
+    min-height:90vh;
+}
+section#left{
+    background-color: #1FA1F2;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.05);
+}
+section#left div#bgtwitter{
+    content: "";
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+    background-repeat: no-repeat;
+    background-image: url("twitter.svg");
+    background-size: 150%;
+    background-position: -40% 50%;
+    opacity: 0.15;
+
+}
+section#left >div:not(#bgtwitter){
+    max-width: 440px;
+}
+section#left h2{
+    font-size:1.7em;
+    margin-bottom: 1em;
+}
+section#left > div > p{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+section#left ul{
+    list-style-type: none;
+    margin:2em 0;
+}
+section#left ul li{
+    display: flex;
+    margin-bottom:2em;
+}
+section#left ul i{
+    font-size: 3em;
+    margin-right:.5em;
+    flex-grow: 1;
+}
+section#left ul div {
+    flex-basis: 80%;
+}
+section#left ul p{
+    font-size: .9em;
+}
+
+
+
+section#right{
+    background: green;
+}
+
+
+
+footer{
+    flex-basis: 100%;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+footer ul li a{
+    display: block;
+    color:#AFBDC6;
+    padding:0 .25em .25em;
+}
+
