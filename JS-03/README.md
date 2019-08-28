@@ -19,7 +19,7 @@ let myFunction = function(a){
 }
 
 //ARROW FUNCTION
-let myFunction = (a) = {
+let myFunction = (a) => {
     console.log(a);
     return a;
 }

@@ -13,8 +13,6 @@ let key = "brand"
 // console.log(car.key); // THIS WILL NOT WORK
 console.log(car[key]);
 
-// OBJECT.prototype
-
 Array.prototype.displayArrayItems = function(){
     console.log(this);
 }

@@ -7,7 +7,7 @@ let sentence = "Hello world. This is my first sentence. I just learned how to sp
 ## Tasks to do:
 1. Write a function `capitaliseWords()`, that will transform first letter from each word in string to uppercase and return it as a new string.
 2. Write a function that will print how many vowels (`"a","e","i","o","u","y"`) string has.
-3. Write a function that will reverse the order of each word in the string (for example `Hello world` should be `olleH dlrow`). Don't change the order of the words.
+3. Write a function that will reverse the order of letters in each word in the string (for example `Hello world` should be `olleH dlrow`). Don't change the order of the words.
 4. Write a function that will return the longest word in the sentence.
 5. Pay your employees example https://www.goconqr.com/c/60238/course_modules/90011-pay-your-employees?=
 

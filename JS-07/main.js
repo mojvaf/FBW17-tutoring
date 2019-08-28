@@ -41,7 +41,7 @@ let people = [
     { name:"Mother Theresa", birth:1920, death:2000 }
 ]
 
-// #1 SUM ALL THE PRICE (REDUCE)
+// #1 SUM ALL THE PRICES (REDUCE)
 
 // VARIABLE = ARRAY
 
@@ -83,9 +83,6 @@ let colors = {
     black:2,
     pink:1
 }
-{
-    red:1
-}
 */
 let colors = cars.reduce(function(total,current){
     console.log(total[current.color])
@@ -100,8 +97,5 @@ let colors = cars.reduce(function(total,current){
 console.log(colors);
 
 // #5 RETURN ARRAY WITH CAR NAMES THAT CONTAINS STRING PROVIDED AS SECOND PARAMETER (FILTER AND ...)
-
-
-
 // #6 SORT THE CARS BY PRICE ASCENDING (SORT)
 // #7 SORT THE ARRAY DESCENDING BY THE YEARS THAT PERSON HAS LIVED
