@@ -1,3 +1,23 @@
+let numbers = [ 2,4,6,8]
+let sum = numbers.reduce(function(total,current){
+    console.log(total);
+    console.log(current);
+    return total+current;
+},0);
+console.log(sum);
+
+// total = 0
+// total = 0 + 2
+// total = 2 + 4
+// total = 6 + 6
+// total = 12 + 8 
+
+// total = 2
+// total = 2 + 4
+// total = 6 + 6
+// total = 12 + 8 
+
+
 let cars = [
     { 
         name:"Audi R8",
@@ -54,7 +74,7 @@ let people = [
 }
 console.log(countTotalPrice(cars))
 
-
+cars;
 
 // #2 MULTIPLY ALL THE PRICES BY 100 (MAP)
 
@@ -71,10 +91,11 @@ console.log(cars);
 
 
 let filteredCars = cars.filter(function(car){
-    console.log(car);
+    //console.log(car);
     return car.price <= 50000 && car.price >= 20000;
 });
 console.log(filteredCars);
+console.log(cars);
 
 // #4 RETURN OBJECT WITH COLORS AS KEYS, AND HOW MANY CARS HAVE IT AS VALUE (REDUCE)
 /*
@@ -84,18 +105,45 @@ let colors = {
     pink:1
 }
 */
-let colors = cars.reduce(function(total,current){
-    console.log(total[current.color])
-    
+let colors = cars.reduce(function(total,current,index){
+    console.log("ITERATION",index)
+    console.log("-".repeat(40));
+    console.log(total);
+    console.log(current.color)
+    console.log(current.name);
+
+
+
     if(total[current.color]===undefined){
         total[current.color]=1;
     } else {
         total[current.color]++;
     }
     return total;
+
 },{});
 console.log(colors);
 
+
+
+
+
+
+cars;
+
+
 // #5 RETURN ARRAY WITH CAR NAMES THAT CONTAINS STRING PROVIDED AS SECOND PARAMETER (FILTER AND ...)
+
+// "ia"
+let filterByString = function(array,string){
+    let filtered = array.filter(function(car){
+        console.log(car);
+        return car.name.toLowerCase().includes(string.toLowerCase());
+    });
+    return filtered;
+}
+console.log(filterByString(cars,"ia"));
+console.log(filterByString(cars,"T"));
+
 // #6 SORT THE CARS BY PRICE ASCENDING (SORT)
 // #7 SORT THE ARRAY DESCENDING BY THE YEARS THAT PERSON HAS LIVED

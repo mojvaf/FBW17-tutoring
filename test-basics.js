@@ -15,7 +15,7 @@ let words = ["this","is","my","array","of","strings"];
 // #10 Write a function that returns the longest string in array WORDS
 
 //BOOLEANS
-// #11
+// #11 write a function that returns true
 // #12
 // #13
 // #14
