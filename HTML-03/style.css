@@ -35,26 +35,49 @@ header a::before{
     background: black;
     position: absolute;
     left: 50%; top:100%;
-    transform: translateX(-50%) scaleY(0);
+    transform: translateX(-50%) scaleX(0);
     transition: transform 1s ease;
 }
 header a:hover::before{
-    transform: translateX(-50%) scaleY(1);
+    transform: translateX(-50%) scaleX(1);
 }
 main{
     padding:100px;
 }
 div.square{
     width:100px; height:100px;
+    padding:1em;
+    text-align: center;
+    display: inline-block;
     background: red;
-    transform: scaleX(1);
+    transform: scale(1);
+    transition: transform 1s ease;
+}
+div.square.scalex-half:hover{
+    transform: scaleX(0.5);
+}
+div.square.scalex-zero:hover{
+    transform: scaleX(0);
+}
+div.square.scaley-half:hover{
+    transform: scaleY(0.5);
+}
+div.square.scaley-two:hover{
+    transform: scaleY(2);
+}
+main h2{
+    margin-bottom:1em;
 }
 main ul{
     list-style-position: inside;
 }
 main p{
     display: inline-block;
-    background: red;
     margin:1em;
     height: 100px;
+}
+footer{
+    background: #222;
+    padding:100px;
+    color:#fff;
 }
